@@ -3,30 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Static Website</title>
+    <title>Bar Menu</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            background-color: #fff0f0;
             text-align: center;
             padding: 50px;
         }
         h1 {
-            color: #333;
+            color: #ff5e5e;
+            margin-bottom: 40px;
         }
-        p {
-            color: #666;
+        .menu {
+            background-color: #ffe6e6;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        a {
-            color: #0066cc;
-            text-decoration: none;
+        .menu-item {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            color: #ff3333;
+        }
+        .menu-item span {
+            display: block;
+            font-size: 1rem;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Static Website</h1>
-    <p>This is a test page hosted on GitHub Pages!</p>
-    <p>Edit this content in the <code>index.html</code> file to update your site.</p>
-    <a href="https://github.com" target="_blank">Visit GitHub</a>
+    <h1>Our Special Bar Menu</h1>
+    <div class="menu">
+        <div class="menu-item">
+            Strawberry Sunburst
+            <span>A fresh burst of strawberries with a hint of mint.</span>
+        </div>
+        <div class="menu-item">
+            Nutella aus dem Glas
+            <span>Rich and creamy Nutella, straight from the jar.</span>
+        </div>
+        <div class="menu-item">
+            Wildberry Lillet
+            <span>A fruity and refreshing wildberry Lillet cocktail.</span>
+        </div>
+    </div>
 </body>
 </html>
